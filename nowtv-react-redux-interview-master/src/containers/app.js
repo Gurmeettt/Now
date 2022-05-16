@@ -5,9 +5,6 @@ import textMessages from '../data/messages.json';
 const App = () => (
   <main>
     <h1>Welcome to the Chat!</h1>
-    {/* {textMessages.sort(function (a, b) {
-      return a.timestamp - b.timestamp;
-    })} */}
     {
       (textMessages.sort(function (a, b) {
         return a.timestamp.localeCompare(b.timestamp);
