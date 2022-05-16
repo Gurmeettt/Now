@@ -1,0 +1,20 @@
+.messageAndMember{
+    position: relative;
+    padding-left: 2%;
+    border-bottom: 1px dotted rgb(75, 67, 67);
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.email{
+    visibility: hidden;
+    padding-left: 5%;
+    visibility: collapse;
+    background-color: rgb(75, 67, 67);
+    color: white;
+    z-index: 1;
+}
+
+.messageAndMember:hover .email {
+    visibility: visible;
+  }
