@@ -5,16 +5,6 @@ import members from '../data/members.json';
 import Moment from 'react-moment';
 import './messageStyles.css';
 
-// const hiddenEmail = {
-//   // visibility: 'hidden',
-//   backgroundColor: 'black',
-//   color: '#fff',
-// };
-// const visibleMessage = {
-//   visibility: 'visible',
-//   color: 'black',
-// };
-
 function MessageComponent(props) {
   const message = props.individualMessage;
   const messageDate = props.individualMessageTimestamp;
